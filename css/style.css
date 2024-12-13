@@ -1,0 +1,33 @@
+*{
+    margin : 0 ;
+    padding : 0 ;
+    box-sizing : border-box ;
+}
+
+img {
+    width:100%;
+    max-width:350px;
+    height : 300px ;
+    border-radius : 10px;
+}
+
+h1 {
+    padding : 20px 0
+}
+
+.head {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 8px solid #fdb347;
+    margin-bottom : 20px;
+}
+
+.gallery {
+    display: flex ;
+    flex-wrap : wrap ;
+    justify-content : center ;
+    gap : 10px ;
+}
